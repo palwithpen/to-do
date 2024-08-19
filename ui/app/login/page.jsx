@@ -31,7 +31,7 @@ export default function Login() {
                         <div>
                             <TextField
                                 className={`${Styles.extend}`}
-                                label="Email"
+                                label="Username"
                                 variant='outlined'
                                 value={creds.username}
                                 onChange={(e) => { setCreds({ ...creds, username: e.target.value }) }}
